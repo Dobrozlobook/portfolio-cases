@@ -1,0 +1,33 @@
+# Секреты: никогда не публиковать
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials*.json
+
+# Данные заказчиков и выгрузки
+data/
+dumps/
+*.sqlite
+*.db
+*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Docker и n8n: тома могут содержать ключи и базы
+volumes/
+n8n_data/
+.n8n/
+
+# Редакторы и система
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
