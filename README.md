@@ -1,6 +1,6 @@
-# Павел [Фамилия] — Python, LLM API, автоматизации
+# Dobrozlobook — Python, LLM API, автоматизации
 
-Пишу на Python интеграции с OpenAI и Anthropic API, собираю автоматизации в n8n и Flowise, разворачиваю сервисы в Docker.
+Пишу на Python интеграции, парсеры и расчётные программы, собираю автоматизации и ИИ-ботов в n8n и Flowise, разворачиваю сервисы в Docker.
 
 > Код заказчиков здесь не публикуется: так принято работать с клиентами. Вместо него — описания работ: какая была задача, как решил, на чём сделано и что получилось.
 
@@ -8,13 +8,14 @@
 
 | Проект | О чём | Стек |
 | --- | --- | --- |
-| [Кадровый бот: учёт трафика и подбор вакансий](cases/01-hr-bot-utm.md) | Считает, какой партнёр сколько привёл кандидатов, и подбирает им вакансии | Python, [БД], вебхуки |
-| [Бэкенд и парсер для сети общепита](cases/02-food-backend-parser.md) | Бизнес-логика, интерактивные меню, сбор гео-данных для оценки точек | Python, парсинг, JSON |
-| [Локальная ИИ-лаборатория](cases/03-ai-lab-docker.md) | n8n и Flowise в Docker для быстрых экспериментов с LLM | Docker Compose, n8n, Flowise, ngrok |
+| [Ядро расчёта меню: рейтинг блюд и недельное меню](cases/04-menu-core.md) | Разбор Excel-актов, сверка с отчётами заказчика, расчёт по правилам из конфига, тесты | Python, pandas, openpyxl, pytest |
+| [Кадровый бот: учёт трафика и подбор вакансий](cases/01-hr-bot-utm.md) | Считает, какой партнёр сколько привёл кандидатов, и подбирает им вакансии | Python, REST API, таблицы, вебхуки |
+| [Парсер организаций и ИИ-оценка мест размещения](cases/02-food-backend-parser.md) | По запросу собирает организации города и оценивает, подходят ли они для размещения объектов | Python, парсинг карт, LLM |
+| [Локальная ИИ-лаборатория: бот вместо колл-центра](cases/03-ai-lab-docker.md) | Цепочки в n8n и Flowise в Docker: текстовые и голосовые обращения | Docker Compose, n8n, Flowise, ngrok, GitHub |
 
 ## Стек
 
-Python (FastAPI, HTTP-клиенты, парсинг, JSON) · OpenAI API, Anthropic API · n8n, Flowise · Docker, Docker Compose · Git · PostgreSQL, Redis [оставить то, что реально использовали]
+Python (pandas, openpyxl, pytest) · OpenAI API, Anthropic API · n8n, Flowise, Ollama · Docker, Docker Compose · ngrok · Git, GitHub (ветки, Pull Request) · парсинг, вебхуки, REST API
 
 ## Как я работаю с ключами и данными
 
@@ -24,4 +25,4 @@ Python (FastAPI, HTTP-клиенты, парсинг, JSON) · OpenAI API, Anthr
 
 ## Контакты
 
-Telegram [@ник] · [e-mail]
+Telegram [@dobrozlobook](https://t.me/dobrozlobook) · dobrozlobook@gmail.com
